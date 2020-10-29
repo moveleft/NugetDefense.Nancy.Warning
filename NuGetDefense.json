@@ -1,0 +1,12 @@
+{
+  "WarnOnly": false,
+  "Logs": [
+    {
+      "OutPut": "./logs/{project}.NuGetDefense.log",
+      "LogLevel": "Information",
+      "RollingInterval": "Infinite"
+    }
+  ],
+  "OssIndex": { "Enabled": false },
+  "NVD": { "Enabled": true }
+}
